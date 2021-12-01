@@ -1,7 +1,7 @@
 import sys
 
 def parse_input(path):
-    with open('input1.txt') as f:
+    with open(path) as f:
         lines = [int(x) for x in f.readlines()]
     return lines
 
