@@ -25,8 +25,7 @@ def part_1(instructions):
 
 
 def part_2(instructions):
-    horizontal, depth = 0, 0
-    aim = 0
+    horizontal, depth, aim = 0, 0, 0
 
     for comm, units in instructions:
 
